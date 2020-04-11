@@ -12,11 +12,16 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "2.4.2",
-    "@lrnwebcomponents/dynamic-import-registry": "^2.6.5",
-    "@lrnwebcomponents/wc-autoload": "^2.6.5",
+    "@lrnwebcomponents/a11y-collapse": "^2.6.5",
+    "@lrnwebcomponents/cms-hax": "^2.6.6",
     "@lrnwebcomponents/deduping-fix": "2.4.0",
+    "@lrnwebcomponents/dynamic-import-registry": "^2.6.5",
+    "@lrnwebcomponents/voice-recorder": "^2.6.4",
+    "@lrnwebcomponents/wc-autoload": "^2.6.5",
+    "@lrnwebcomponents/wysiwyg-hax": "^2.6.6",
+    "@webcomponents/webcomponentsjs": "2.4.2",
     "fetch-ie8": "1.5.0",
+    "nara-logo": "git+https://github.com/weikai/nara-logo.git",
     "promise-polyfill": "8.1.3",
     "web-animations-js": "2.3.2"
   },
@@ -25,11 +30,11 @@
     "access": "public"
   },
   "devDependencies": {
+    "glob": "^7.1.6",
     "gulp": "4.0.2",
     "gulp-terser": "1.2.0",
     "polymer-build": "3.1.4",
-    "polymer-cli": "1.9.11",
-    "glob": "^7.1.6"
+    "polymer-cli": "1.9.11"
   },
   "scripts": {
     "build": "polymer build && yarn run terser && yarn run wc-autoloader",
