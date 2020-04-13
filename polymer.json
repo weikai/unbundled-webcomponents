@@ -1,6 +1,7 @@
 {
   "entrypoint": "dist/build.html",
   "extraDependencies": [
+    "node_modules/nara-logo/src/*",
     "node_modules/fetch-ie8/fetch.js",
     "node_modules/promise-polyfill/dist/polyfill.min.js",
     "node_modules/web-animations-js/*.map",
